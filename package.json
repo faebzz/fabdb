@@ -1,0 +1,30 @@
+{
+  "name": "fabdb",
+  "version": "1.0.0",
+  "description": "The database",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faebzz/fabdb.git"
+  },
+  "author": "Fabian Schaper",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/faebzz/fabdb/issues"
+  },
+  "homepage": "https://github.com/faebzz/fabdb#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "minimist": "^1.2.0",
+    "underscore": "^1.9.1"
+  }
+}
