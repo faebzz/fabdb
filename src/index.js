@@ -1,4 +1,11 @@
-const server = require('./server.js');
-const args = require('minimist')(process.argv.slice(2));
-const about = require('./about');
-server.start();
+const command = require('./command');
+const writer = require('./writer');
+function FabDb(name) {
+  this.name = name;
+  this.init();
+}
+FabDb.prototype.init = () => {
+  return writer.init(this.name);
+}
+
+module.exports = FabDb;

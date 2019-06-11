@@ -1,7 +1,7 @@
 const message = (msg, type, data) => {
   return {
     message: msg,
-    type: type,
+    code: type,
     data: data,
     start: new Date(),
     duration: null,
